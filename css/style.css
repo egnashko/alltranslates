@@ -1,0 +1,512 @@
+body {
+    font-family: "Segoe UI Semibold", sans-serif;
+}
+
+.row {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*---------------------header---------------------*/
+
+header {
+    background: #d7d7d7;
+}
+
+header .row {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
+    color:#2b569a;
+    margin-top:60px;
+}
+
+.line {
+    height:3px;
+    width:70px;
+    margin: auto;
+    background: #2b569a;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.all_trans h2, .website_trans h2 {
+    margin-top:60px;
+}
+
+header .col-md-12, header .col-md-6 {
+    padding: 0;
+}
+
+.private_trans, .medical_trans, .all_trans, .reassurance, .tecnic_trans, .website_trans, .literature_trans,
+.econom_trans, .loy_trans {
+    vertical-align: top;
+    display: inline-block;
+    height: 146px;
+    margin:5px 4px;
+}
+
+.medical_trans, .tecnic_trans, .literature_trans, .econom_trans, .loy_trans {
+    width: 146px;
+}
+
+.all_trans, .reassurance {
+    width:225px;
+}
+
+.private_trans, .website_trans {
+    width:304px;
+}
+
+.private_trans {
+    background: url("../img/header/head_per_os_doc.png") center;
+}
+
+.medical_trans {
+    background: url("../img/header/head_med_per.png") center;
+}
+
+.all_trans {
+    background: url("../img/header/head_usi_per.png") center;
+}
+
+.reassurance {
+    background: url("../img/header/head_zavir.png") center;
+}
+
+.tecnic_trans {
+    background: url("../img/header/head_teh_per.png") center;
+}
+
+.website_trans {
+    background: url("../img/header/head_per_website.png") center;
+}
+
+.literature_trans {
+    background: url("../img/header/head_lit_per.png") center;
+}
+
+.econom_trans {
+    background: url("../img/header/head_ekon_per.png") center;
+}
+
+.loy_trans {
+    background: url("../img/header/head_yurid_per.png") center;
+}
+
+.work_with h3 {
+    font-family: "Segoe UI Bold", sans-serif;
+    color: #2b569a;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ukr_map {
+    margin-bottom: 21px;
+    margin-left: 30px;
+}
+
+.consultation, .order {
+    font-family: "Segoe UI Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.consultation {
+    color: #2b569a;
+    text-transform: uppercase;
+    border: 3px solid #2b569a;
+    padding: 10px 20px;
+}
+
+.consultation:hover {
+    color:white;
+    background: #2b569a;
+    transition: .3s ease-in-out;
+}
+
+.order {
+    text-transform: uppercase;
+    color: black;
+    background: #ff9900;
+    padding: 13px 24px;
+}
+
+.order:hover {
+    color:#ff9900;
+    background: #2b569a;
+    transition: .3s ease-in-out;
+}
+
+/*---------------------section_1---------------------*/
+
+section .container-fluid .row {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.partners h1 {
+    text-align: center;
+    font-size: 30px;
+    color:#2b569a;
+    margin-top:40px;
+}
+
+.carous_marg {
+    width:800px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.carous_marg img {
+    margin:30px;
+}
+
+.carousel-control.right {
+    background: none;
+}
+.carousel-control.left {
+    background: none;
+}
+
+.icon-prev, .icon-next {
+    border-top:2px solid black;
+    border-left:2px solid black;
+    transform: rotate(135deg);
+}
+.icon-prev {
+    transform: rotate(-45deg);
+}
+
+.carousel-control .icon-prev:before, .carousel-control .icon-next:before {
+    content: none;
+}
+
+.carousel {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*---------------------section_2---------------------*/
+
+.price h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+}
+
+.price .line {
+    background: white;
+}
+
+section:nth-child(3) {
+    background: #2b569a;
+}
+
+.prices {
+    display: inline-block;
+    height: 265px;
+    width: 265px;
+    background: url("../img/section_2/section_2_shablon_ceny.png");
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.prices h4 {
+    text-align: center;
+    color: #2b569a;
+    font-size: 24px;
+    font-family: "Segoe UI Bold", sans-serif;
+    margin-top: 32px;
+}
+
+.prices h5 {
+    color: white;
+    font-family: "Segoe UI Bold", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.prices h6 {
+    color: #2b569a;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 54px;
+}
+
+.over_prices {
+    width: 983px;
+    margin: auto;
+}
+
+section:nth-child(3) .carousel {
+    margin-bottom: 90px;
+}
+
+section:nth-child(3) .carousel-indicators {
+    bottom: -60px;
+}
+
+section:nth-child(3) .icon-prev, section:nth-child(3) .icon-next {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+section:nth-child(3) .carousel-control {
+    width: 1%;
+}
+
+.all_prices {
+    text-transform: uppercase;
+    width:300px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.all_prices a {
+    color: #ffd800;
+    text-transform: uppercase;
+    border: 3px solid #ffd800;
+    padding: 10px 30px;
+}
+
+.all_prices a:hover {
+    transition: .3s ease-in-out;
+    background: #ffd800;
+    color: #2b569a;
+}
+
+/*---------------------footer---------------------*/
+
+footer {
+    background: #dcdcdc;
+}
+
+.comments h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #2b569a;
+    margin-top: 40px;
+}
+
+.anjelica p, .nadya p {
+    position: relative;
+    color: #2b569a;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.anjelica p:before {
+    position: absolute;
+    content: url("../img/footer/section_3_ava_1.png");
+    top: -10px;
+    left: 85px;
+}
+.anjelica p:after {
+    position: absolute;
+    content: url("../img/footer/section_3_mark_star.png");
+    top: 20px;
+    left: 147px;
+}
+.nadya p:after {
+    position: absolute;
+    content: url("../img/footer/section_3_mark_star.png");
+    top: 20px;
+    left: 165px;
+}
+.nadya p:before {
+    position: absolute;
+    content: url("../img/footer/section_3_ava_2.png");
+    top: -10px;
+    left: 104px;
+}
+
+.comment h6 {
+    font-size: 20px;
+    text-align: center;
+    color: #2b569a;
+}
+
+.comment p {
+    font-size: 16px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 26px;
+}
+
+.all_comments a {
+    display: block;
+    width:200px;
+    margin: 30px auto;
+    text-align: center;
+    border: 3px solid #2b559a;
+    text-transform: uppercase;
+    color: #2b559a;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.all_comments a:hover {
+    transition: .3s ease-in-out;
+    background: #2b559a;
+    color: white;
+}
+
+.contacts_0, .contacts_1, .contacts_2 {
+    width:290px;
+    height: 210px;
+    margin-bottom: 50px;
+}
+
+.contacts_0, .contacts_2 {
+    background: white;
+}
+.contacts_1 {
+    background: #898989;
+}
+
+footer h3 {
+    position: relative;
+    font-family: "Segoe UI Bold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 65px;
+    color: #2b559a;
+    margin-bottom: 30px;
+}
+
+.contacts_1 h3 {
+    color:white;
+}
+.contacts_0 h3:before {
+    position: absolute;
+    content: url("../img/footer/section_4_call.png");
+    top: 23px;
+    left: 135px;
+}
+.contacts_1 h3:before {
+    position: absolute;
+    content: url("../img/footer/section_4_world.png");
+    top: 23px;
+    left: 135px;
+}
+.contacts_2 h3:before {
+    position: absolute;
+    content: url("../img/footer/section_4_location.png");;
+    top: 23px;
+    left: 135px;
+}
+
+.contacts_0 p {
+    text-align: center;
+    line-height: 12px;
+    font-size: 18px;
+    color: #2b559a;
+}
+
+.order_it {
+    margin-top: 37px;
+}
+
+.order_it a {
+    display: block;
+    width: 200px;
+    background: #ff9900;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Segoe UI Bold", sans-serif;
+    font-size: 20px;
+}
+
+.order_it a:hover {
+    background: transparent;
+    outline: 3px solid #ff9900;
+    transition: .3s ease-in-out;
+}
+
+.contacts_2 p {
+    text-align: center;
+    line-height: 12px;
+    font-size: 18px;
+    color:#2b559a;
+}
+
+.contacts_2 p span {
+    font-family: "Segoe UI Bold", sans-serif;
+}
+
+.bureau h4 {
+    font-family: "Segoe UI Bold", sans-serif;
+    text-align: center;
+}
+
+.bureau p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.final_buttons a:first-child {
+    color: #2b569a;
+    text-transform: uppercase;
+    border: 3px solid #2b569a;
+    padding: 10px 20px;
+    font-family: "Segoe UI Bold", sans-serif;
+    font-size: 18px;
+}
+.final_buttons a:first-child:hover {
+    color: white;
+    background: #2b569a;
+    transition: .3s ease-in-out;
+}
+
+.final_buttons a:last-child {
+    text-transform: uppercase;
+    color: black;
+    background: #ff9900;
+    padding: 13px 24px;
+    font-family: "Segoe UI Bold", sans-serif;
+    font-size: 18px;
+}
+.final_buttons a:last-child:hover {
+    color: #ff9900;
+    background: #2b569a;
+    transition: .3s ease-in-out;
+}
+
+.final_buttons {
+    width: 470px;
+    margin: 80px auto;
+}
+
+/*media*/
+
+.media_new_cont {
+    display: none;
+}
+
+
